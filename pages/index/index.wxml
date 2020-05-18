@@ -1,0 +1,10 @@
+<view>
+<text>云数据库测试:</text>
+<input type="text" bindinput="getId" placeholder="ID"></input>
+<input type="text" bindinput="getName" placeholder="姓名"></input>
+<input type="text" bindinput="getAge" placeholder="年龄"></input>
+<button bindtap="insert" type="primary">增加数据</button>
+<button bindtap="select" type="primary">查询数据</button>
+<button bindtap="update" type="primary">修改数据</button>
+<button bindtap="delete" type="primary">删除数据</button>
+</view>
